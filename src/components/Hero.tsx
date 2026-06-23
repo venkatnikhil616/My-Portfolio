@@ -4,7 +4,7 @@ import React, { useState, useEffect } from 'react';
 import { Mail, Phone, Download, ArrowRight } from 'lucide-react';
 import { GithubIcon, LinkedinIcon } from '@/components/SocialIcons';
 
-const words = ["Software Engineer", "Full-Stack Developer", "AI & ML Enthusiast"];
+const words = ["Cyber Security Engineer", "Linux Administrator", "Cloud Security & Linux Enthusiast"];
 
 export default function Hero() {
   const [currentWordIdx, setCurrentWordIdx] = useState(0);
@@ -60,7 +60,7 @@ export default function Hero() {
       <div className="hero-content">
         <span className="badge hero-badge">Welcome to my Portfolio</span>
         <h1 className="hero-name">
-          Hi, I am <span className="gradient-text">Chandaka Venu</span>
+          Hi, I am <span className="gradient-text">Venkat Nikhil Vallamsetty</span>
         </h1>
         
         <div className="hero-subtitle-container">
@@ -70,7 +70,7 @@ export default function Hero() {
         </div>
 
         <p className="hero-description">
-          Motivated and detail-oriented Computer Science and Engineering student. Experienced in building full-stack applications (MERN), developing machine learning models, and building AI tools. Passionate about solving real-world challenges through technology.
+          Motivated and detail-oriented Computer Science and Engineering student. Experienced in Cloud Computing, Cybersecurity, Linux Administration, and Full-Stack Web Development. Skilled in building secure web applications, developing AI-powered security solutions, and working with AWS Cloud, network security, and machine learning technologies. Passionate about solving real-world challenges through technology and cybersecurity innovation.
         </p>
 
         <div className="hero-ctas">
@@ -83,16 +83,16 @@ export default function Hero() {
         </div>
 
         <div className="hero-socials">
-          <a href="https://github.com/venu-chandaka/" target="_blank" rel="noopener noreferrer" className="hero-social-link" title="GitHub">
+          <a href="https://github.com/venkatnikhil616/" target="_blank" rel="noopener noreferrer" className="hero-social-link" title="GitHub">
             <GithubIcon size={20} />
           </a>
-          <a href="https://linkedin.com/in/venu-chandaka-147n513" target="_blank" rel="noopener noreferrer" className="hero-social-link" title="LinkedIn">
+          <a href="https://www.linkedin.com/in/venkat-nikhil-vallamsetty-293216367" target="_blank" rel="noopener noreferrer" className="hero-social-link" title="LinkedIn">
             <LinkedinIcon size={20} />
           </a>
-          <a href="mailto:venuchandaka513@gmail.com" className="hero-social-link" title="Email">
+          <a href="mailto:venkatnikhil616@gmail.com" className="hero-social-link" title="Email">
             <Mail size={20} />
           </a>
-          <a href="tel:+918499836938" className="hero-social-link" title="Phone">
+          <a href="tel:+919848654484" className="hero-social-link" title="Phone">
             <Phone size={20} />
           </a>
           <a href="/Venkat_Nikhil_resume_23-06-2026.pdf" download className="btn btn-secondary" style={{ borderRadius: '24px', padding: '0.5rem 1.2rem', fontSize: '0.85rem' }}>
