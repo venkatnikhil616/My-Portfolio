@@ -14,7 +14,7 @@ import { GithubIcon } from '@/components/SocialIcons';
 interface Project {
   id: string;
   title: string;
-  category: 'ai-ml' | 'web-dev';
+  category: 'Cloud Sec' | 'web-dev';
   categoryLabel: string;
   period: string;
   shortDesc: string;
@@ -33,60 +33,42 @@ export default function Projects() {
 
   const projects: Project[] = [
     {
-      id: 'proprep',
-      title: 'ProPrep – AI-Based Interview System',
-      category: 'ai-ml',
-      categoryLabel: 'AI & Computer Vision',
-      period: 'March 2026',
-      shortDesc: 'AI-powered mock interview practice platform generating confidence scores and actionable posture/speech feedback using computer vision.',
-      longDesc: 'ProPrep is an award-winning system designed to help students ace their interviews. By integrating OpenCV and MediaPipe, the platform captures user video feed in real-time, analyzing facial landmarks and posture. The backend uses FastAPI to process frames and compute confidence ratings, while the frontend delivers a responsive dashboard with visual performance graphs.',
-      tech: ['FastAPI', 'React', 'OpenCV', 'MediaPipe', 'Python', 'TailwindCSS'],
+      id: 'Rothschild NIDS',
+      title: 'Rothschild NID System',
+      category: 'CyberSecf-ML',
+      categoryLabel: 'CyberSecurity & Machine Learning',
+      shortDesc: 'Real-time Network Intrusion Detection System using machine learning to analyze, classify, and detect malicious network traffic and cybersecurity threats.',
+      longDesc: 'Rothschild-NIDS is a real-time Network Intrusion Detection System designed to identify and classify malicious network traffic using machine learning techniques. Built using Flask, Scikit-learn, and SQLite, the system processes network traffic data, detects suspicious activities, and performs threat analysis for cybersecurity monitoring. The application focuses on intrusion detection, anomaly identification, and real-time security monitoring to enhance network protection and cybersecurity awareness.',
+      tech: ['Python','Flask','Scikit-learn','SQLite','Machine Learning','Network Security'],
       features: [
-        'Real-time posture and facial expression analysis using computer vision models.',
-        'Immediate confidence scoring and constructive feedback reports after interviews.',
-        'High-performance backend API serving model predictions with minimal latency.',
-        'Awarded 1st Prize at Pragyan 2026 Tech Fest.'
+        'Processed and analysed over 10,000 network traffic records for intrusion detection.',
+        'Implemented machine learning models for real-time malicious traffic classification.',
+        'Integrated SQLite database for traffic logging, monitoring, and Threat analysis.',
+        'Focused on anomaly detection, cyber security monitoring, and network threat prevention.'
       ],
-      githubUrl: 'https://github.com/venu-chandaka/',
+
+      githubUrl: 'https://github.com/venkatnikhil616/',
       icon: <Sparkles size={24} />,
       accolade: '1st Place – Sudoku & Project Expo (Pragyan 2026)'
     },
     {
-      id: 'plant-disease',
-      title: 'Plant Disease Detection System',
-      category: 'ai-ml',
-      categoryLabel: 'Machine Learning / Deep Learning',
-      period: 'March 2025',
-      shortDesc: 'A deep learning image classification system utilizing transfer learning to accurately diagnose crop illnesses from leaf photos.',
-      longDesc: 'Developed for farmers to diagnose crop diseases on the fly. Built with TensorFlow and Keras, the system implements a convolutional neural network (CNN) trained with dataset augmentation. The application is wrapped in a Streamlit interface, allowing seamless drag-and-drop photo uploads and rendering rapid disease classifications.',
-      tech: ['TensorFlow', 'Keras', 'Streamlit', 'Python', 'Pandas', 'NumPy'],
+      id: 'AI based Phishing URL Detection System',
+      title: 'Phishing URL Detection System',
+      category: 'AI - Cyber security',
+      categoryLabel: 'AI &  Cyber Security',
+      shortDesc: 'An AI-based phishing URL detection system designed to identify malicious and fraudulent websites through URL analysis and threat prediction techniques.',
+      longDesc: 'Developed an AI-powered phishing URL detection system using machine learning techniques to identify malicious and fraudulent websites. Built with Python and Scikit-learn, the system uses Logistic Regression for threat classification, along with URL feature extraction and preprocessing techniques to improve detection accuracy. The application focuses on real-time phishing detection and cybersecurity protection against online threats.',
+      tech: ['Python', 'Scikit-learn', 'Logistic Regression', 'Pandas', 'Numpy'],
       features: [
-        'Robust crop disease classification using Convolutional Neural Networks.',
-        'Interactive Streamlit UI supporting direct camera snapshots and image uploads.',
-        'Data augmentation and transfer learning techniques to ensure accuracy with small training sets.',
-        'Includes disease details and organic treatment recommendation overlays.'
+        'Achieved 95% phishing URL detection accuracy using Logistic Regression.',
+        'Implemented URL feature extraction and preprocessing techniques for threat analysis.',
+        'Developed real-time malicious URL prediction and classification functionality.',
+        'Enhanced cybersecurity protection against phishing attacks and fraudulent websites.'
       ],
-      githubUrl: 'https://github.com/venu-chandaka/',
+      
+      githubUrl: 'https://github.com/venkastnikhil616/',
       icon: <Sprout size={24} />
     },
-    {
-      id: 'learning-platform',
-      title: 'Online Learning Platform (MERN)',
-      category: 'web-dev',
-      categoryLabel: 'Full-Stack Web Dev',
-      period: 'October 2025',
-      shortDesc: 'Comprehensive course management system featuring secure JWT authorization, role-based workflows, and progress tracking dashboards.',
-      longDesc: 'A complete custom-built LMS designed for teachers and students. Instructors can curate courses, publish text/video content, and construct multiple-choice quizzes. Learners benefit from interactive dashboards mapping enrollment courses, complete progress bars, and quiz scores. The entire stack communicates via REST APIs with MongoDB.',
-      tech: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT', 'CSS Modules'],
-      features: [
-        'Role-Based Access Control (RBAC) separating student and instructor workspaces.',
-        'Dynamic course creation workflows including media uploads and interactive quizzes.',
-        'Learner analytics dashboard tracking progress, test grades, and completion rates.',
-        'Secure token-based authentication (JWT) with HTTP-only cookies.'
-      ],
-      githubUrl: 'https://github.com/venu-chandaka/',
-      icon: <GraduationCap size={24} />
-    }
   ];
 
   const filteredProjects = activeFilter === 'all' 
