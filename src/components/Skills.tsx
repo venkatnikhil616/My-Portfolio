@@ -52,11 +52,11 @@ export default function Skills() {
     // Databases & Tools
     { name: 'MySQL', category: 'databases', level: 80, levelText: 'Intermediate', icon: <Database size={18} /> },
     { name: 'SQLite', category: 'databases', level: 85, levelText: 'Advanced', icon: <Database size={18} /> },
-    { name: 'Postman', category: 'tools', level: 70, levelText: 'Intermediate', icon: <Database size={18} /> },
-    { name: 'Git & GitHub', category: 'tools', level: 85, levelText: 'Advanced', icon: <Wrench size={18} /> },
-    { name: 'VS Code', category: 'tools', level: 90, levelText: 'Advanced', icon: <Wrench size={18} /> }
-    { name: 'Nmap', category: 'tools', level: 90, levelText: 'Advanced', icon: <Wrench size={18} /> }
-    { name: 'Wire Shark', category: 'tools', level: 0, levelText: 'Advanced', icon: <Wrench size={18} /> }
+    { name: 'Postman', category: 'databases', level: 70, levelText: 'Intermediate', icon: <Database size={18} /> },
+    { name: 'Git & GitHub', category: 'databases', level: 85, levelText: 'Advanced', icon: <Wrench size={18} /> },
+    { name: 'VS Code', category: 'databases', level: 90, levelText: 'Advanced', icon: <Wrench size={18} /> }
+    { name: 'Nmap', category: 'databases', level: 90, levelText: 'Advanced', icon: <Wrench size={18} /> }
+    { name: 'Wire Shark', category: 'databases', level: 0, levelText: 'Advanced', icon: <Wrench size={18} /> }
   ];
 
   const filteredSkills = activeTab === 'all' 
