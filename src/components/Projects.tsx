@@ -96,10 +96,10 @@ export default function Projects() {
           AI &amp; ML
         </button>
         <button 
-          className={`skills-tab-btn ${activeFilter === 'web-dev' ? 'active' : ''}`}
+          className={`skills-tab-btn ${activeFilter === 'Sec' ? 'active' : ''}`}
           onClick={() => setActiveFilter('Sec')}
         >
-          Web Development
+          Cyber Security
         </button>
       </div>
 
