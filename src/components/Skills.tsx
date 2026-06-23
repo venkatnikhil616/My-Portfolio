@@ -43,11 +43,11 @@ export default function Skills() {
     // Cloud & Cyber Security
     { name: 'Google Cloud', category: 'cloud', level: 80, levelText: 'Intermediate', icon: <BrainCircuit size={18} /> },
     { name: 'AWS IAM', category: 'cloud', level: 80, levelText: 'Intermediate', icon: <BrainCircuit size={18} /> },
-    { name: 'Linux Administration', category: 'Cyber Security', level: 85, levelText: 'Advanced', icon: <BrainCircuit size={18} /> },
-    { name: 'Network Security', category: 'Cyber Security', level: 75, levelText: 'Intermediate', icon: <Cpu size={18} /> },
+    { name: 'Linux Administration', category: 'cloud', level: 85, levelText: 'Advanced', icon: <BrainCircuit size={18} /> },
+    { name: 'Network Security', category: 'cloud', level: 75, levelText: 'Intermediate', icon: <Cpu size={18} /> },
     { name: 'Cloud Security', category: 'cloud', level: 70, levelText: 'Intermediate', icon: <Cpu size={18} /> },
-    { name: 'Threat Detection', category: 'Cyber Security', level: 85, levelText: 'Advanced', icon: <BarChart size={18} /> },
-    { name: 'Ethical Hacking Fundamentals', category: 'Cyber Security', level: 85, levelText: 'Advanced', icon: <BarChart size={18} /> },
+    { name: 'Threat Detection', category: 'cloud', level: 85, levelText: 'Advanced', icon: <BarChart size={18} /> },
+    { name: 'Ethical Hacking Fundamentals', category: 'cloud', level: 85, levelText: 'Advanced', icon: <BarChart size={18} /> },
     
     // Databases & Tools
     { name: 'MySQL', category: 'databases', level: 80, levelText: 'Intermediate', icon: <Database size={18} /> },
