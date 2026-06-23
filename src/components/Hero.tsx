@@ -95,7 +95,7 @@ export default function Hero() {
           <a href="tel:+918499836938" className="hero-social-link" title="Phone">
             <Phone size={20} />
           </a>
-          <a href="/Chandaka_Venu_Resume.docx" download className="btn btn-secondary" style={{ borderRadius: '24px', padding: '0.5rem 1.2rem', fontSize: '0.85rem' }}>
+          <a href="/Venkat_Nikhil_resume_23-06-2026.pdf" download className="btn btn-secondary" style={{ borderRadius: '24px', padding: '0.5rem 1.2rem', fontSize: '0.85rem' }}>
             <Download size={16} /> Download CV
           </a>
         </div>
