@@ -22,7 +22,7 @@ interface Skill {
 }
 
 export default function Skills() {
-  const [activeTab, setActiveTab] = useState<'all' | 'languages' | 'frameworks' | 'ml' | 'databases'>('all');
+  const [activeTab, setActiveTab] = useState<'all' | 'languages' | 'frameworks' | 'cloud' | 'databases'>('all');
 
   const skills: Skill[] = [
     // Languages
@@ -54,9 +54,9 @@ export default function Skills() {
     { name: 'SQLite', category: 'databases', level: 85, levelText: 'Advanced', icon: <Database size={18} /> },
     { name: 'Postman', category: 'databases', level: 70, levelText: 'Intermediate', icon: <Database size={18} /> },
     { name: 'Git & GitHub', category: 'databases', level: 85, levelText: 'Advanced', icon: <Wrench size={18} /> },
-    { name: 'VS Code', category: 'databases', level: 90, levelText: 'Advanced', icon: <Wrench size={18} /> }
-    { name: 'Nmap', category: 'databases', level: 90, levelText: 'Advanced', icon: <Wrench size={18} /> }
-    { name: 'WireShark', category: 'databases', level: 0, levelText: 'Advanced', icon: <Wrench size={18} /> }
+    { name: 'VS Code', category: 'databases', level: 90, levelText: 'Advanced', icon: <Wrench size={18} /> },
+    { name: 'Nmap', category: 'databases', level: 90, levelText: 'Advanced', icon: <Wrench size={18} /> },
+    { name: 'WireShark', category: 'databases', level: 0, levelText: 'Advanced', icon: <Wrench size={18} /> },
   ];
 
   const filteredSkills = activeTab === 'all' 
