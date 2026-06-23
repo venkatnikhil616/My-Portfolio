@@ -28,7 +28,7 @@ export default function Footer() {
         {/* Links */}
         <div className="footer-links">
           <a 
-            href="https://github.com/venu-chandaka/" 
+            href="https://github.com/venkatnikhil616/" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="footer-link"
@@ -37,7 +37,7 @@ export default function Footer() {
             <GithubIcon size={18} />
           </a>
           <a 
-            href="https://linkedin.com/in/venu-chandaka-147n513" 
+            href="https://www.linkedin.com/in/venkat-nikhil-vallamsetty-293216367" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="footer-link"
